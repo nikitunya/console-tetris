@@ -40,7 +40,6 @@ public abstract class Figure {
     public void clear() {
         for (int i = 0; i < FIGURE_SIZE; i++) {
             this.board.clearFigureFromBoard(this.points[i].x, this.points[i].y);
-//            this.board.clearFigureFromBoard(this.points[i].y, this.points[i].x);
         }
     }
     public int getFigureSize(){

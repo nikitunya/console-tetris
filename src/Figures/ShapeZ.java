@@ -1,4 +1,4 @@
-package Figures;//package FIgures;
+package Figures;
 
 
 import Enums.FigureType;

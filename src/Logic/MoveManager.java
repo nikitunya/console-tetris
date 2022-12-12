@@ -64,7 +64,7 @@ public class MoveManager {
             tempPoints[i] = new Point(points[i].x, points[i].y);
         }
 
-        figure.rotate(tempPoints); // TODO: Padaryt
+        figure.rotate(tempPoints);
 
         for (int i = 0; i < figure.getFigureSize(); i++) {
             if (!board.notOutBounds(tempPoints[i].y, tempPoints[i].x)) {
@@ -83,7 +83,7 @@ public class MoveManager {
             tempPoints[i] = new Point(points[i].x, points[i].y);
         }
         checkMoveDown(tempPoints, figure);
-        for (int i = 0; i < tempPoints.length; i++) { //TODO: Here is exctra code
+        for (int i = 0; i < tempPoints.length; i++) {
             if (!board.notOutBounds(tempPoints[i].x, tempPoints[i].y, figure)) {
                 return false;
             }
@@ -145,5 +145,4 @@ public class MoveManager {
             tempPoints[i].y++;
         }
     }
-//    protected abstract void rotate(Point[] points);
 }

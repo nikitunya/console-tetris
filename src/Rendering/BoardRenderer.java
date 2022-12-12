@@ -26,20 +26,5 @@ public class BoardRenderer {
         for (int i = 0; i < board.getHeight() + 2; i++) {
             System.out.print("*");
         }
-//        System.out.println("----------------------");
-//        for (int i = 0; i < board.getHeight(); i++) {
-//            System.out.print("*");
-//            for (int j = 0; j < board.getHeight(); j++) {
-//                if (board.isStar(i, j)) {
-//                    System.out.print("*");
-//                } else {
-//                    System.out.print(" ");
-//                }
-//            }
-//            System.out.println("*");
-//        }
-//        for (int i = 0; i < board.getHeight() + 2; i++) {
-//            System.out.print("*");
-//        }
     }
 }
